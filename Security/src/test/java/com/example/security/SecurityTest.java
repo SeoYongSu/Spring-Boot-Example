@@ -22,10 +22,7 @@ class SecurityTest {
 
     @LocalRSocketServerPort
     int port;
-
-    @Autowired
-    RSocketRequester.Builder requester;
-
+    
     @Test
     void securitySuccess(){
         MimeType authenticationMimeType =
