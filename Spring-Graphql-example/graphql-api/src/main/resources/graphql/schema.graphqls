@@ -1,0 +1,20 @@
+type Board{
+    id: ID
+    title: String
+    content: String
+    reg: Register
+}
+
+type Register{
+    name : String
+}
+
+
+type Query{
+    getBoardById(id: ID): Board
+}
+
+
+type Mutation{
+    insertBoard(title:String, content:String):Board
+}

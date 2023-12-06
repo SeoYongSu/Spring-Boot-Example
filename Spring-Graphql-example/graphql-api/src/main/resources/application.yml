@@ -1,0 +1,9 @@
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+
+    schema:
+      printer:
+        enabled: true
+    path: /hello
