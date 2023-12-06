@@ -1,2 +1,2 @@
 # Spring-Boot-Example
-Repository 취합용
+Git 정리중
